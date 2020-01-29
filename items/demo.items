@@ -41,12 +41,16 @@ Switch Light_FF_Office_Ceiling      "Ceiling"       (FF_Office, Lights)     ["Li
 Switch Light_FF_Son_Ceiling         "Ceiling"       (FF_Son, Lights)        ["Light"]
 Switch Light_FF_Daughter_Ceiling    "Ceiling"       (FF_Daughter, Lights)   ["Light"]
 Switch Light_FF_Bed_Ceiling         "Ceiling"       (FF_Bed, Lights)        ["Light"]
-Switch hue_0100_001788630e3f_4_brightness "End Table" (FF_Bath, Lights)     ["Light"]
 
-Switch Light_C_Corridor_Ceiling     "Ceiling"       (gC, Lights)            ["Light"]
-Switch Light_C_Staircase            "Staircase"     (gC, Lights)            ["Light"]
-Switch Light_C_Washing_Ceiling      "Washing"       (gC, Lights)            ["Light"]
-Switch Light_C_Workshop             "Workshop"      (gC, Lights)            ["Light", "Lighting"]
+Switch hue_0100_001788630e3f_4_brightness       "Couch Table"       (gC, Lights)            ["Light", "Lighting"]
+Switch hue_0100_001788630e3f_3_brightness       "BedSide Table"     (gC, Lights)            ["Light"]
+Switch hue_0100_001788630e3f_2_brightness       "Desk Lamp"         (gC, Lights)            ["Light"]
+//Switch Light_C_Workshop                         "Cabinet Lighting"  (gC, Lights)            ["Light"]
+
+// Switch Light_C_Corridor_Ceiling     "Ceiling"       (gC, Lights)            ["Light"]
+// Switch Light_C_Staircase            "Staircase"     (gC, Lights)            ["Light"]
+// Switch Light_C_Washing_Ceiling      "Washing"       (gC, Lights)            ["Light"]
+// Switch Light_C_Workshop             "Workshop"      (gC, Lights)            ["Light", "Lighting"]
 
 Switch Light_Garden_Garage          "Garage"        (Garden, Lights)        ["Light", "Lighting"]
 Switch Light_Garden_Terrace         "Terrace"       (Garden, Lights)        ["Light"]
