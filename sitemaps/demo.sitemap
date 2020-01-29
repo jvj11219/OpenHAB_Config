@@ -29,6 +29,15 @@ sitemap demo label="Josh's Home Control"
 		}
 	}
 
+	Frame label="Sonos" {
+		Default item=Sonos_Controller
+		Slider  item=Sonos_Volume
+		Switch  item=Sonos_Mute
+		Switch  item=Sonos_LED
+		Text    item=Sonos_CurrentTrack		
+		Text    item=Sonos_State
+	}
+
 	// Frame label="Demo Widgets" {
 	// 	Text item=CurrentDate
 	// 	Text label="Group Demo" icon="firstfloor" {
