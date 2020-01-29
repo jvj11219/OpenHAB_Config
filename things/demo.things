@@ -3,4 +3,6 @@ astro:moon:home [ geolocation="52.5200066,13.4049540", interval=60 ]
 
 ntp:ntp:demo    [ hostname="nl.pool.ntp.org", refreshInterval=60, refreshNtp=30 ]
 
+Thing sonos:PLAYBAR:living [ udn="RINCON_000E58BF237701400", refresh=60]
+
 // vim: syntax=Xtend
