@@ -25,6 +25,18 @@ Group:Switch:OR(ON, OFF)        Heating     "No. of Active Heatings [(%d)]"     
 Group:Number:AVG                Temperature "Avg. Room Temperature [%.1f °C]"   <temperature>   (Status)
 Group:Contact:OR(OPEN, CLOSED)  Windows     "Open windows [(%d)]"               <contact>
 
+
+/* Sonos Speakers */ 
+
+Group Sonos <player>
+
+Player Sonos_Controller   "Controller"                          (Sonos) {channel="sonos:PLAYBAR:LivingRoom:control"}
+Dimmer Sonos_Volume       "Volume [%.1f %%]" <soundvolume>      (Sonos) {channel="sonos:PLAYBAR:LivingRoom:volume"}
+Switch Sonos_Mute         "Mute"             <soundvolume_mute> (Sonos) {channel="sonos:PLAYBAR:LivingRoom:mute"}
+Switch Sonos_LED          "LED"              <switch>           (Sonos) {channel="sonos:PLAYBAR:LivingRoom:led"}
+String Sonos_CurrentTrack "Now playing [%s]" <text>             (Sonos) {channel="sonos:PLAYBAR:LivingRoom:currenttrack"}
+String Sonos_State        "Status [%s]"      <text>             (Sonos) {channel="sonos:PLAYBAR:LivingRoom:state"}
+
 /* Lights */
 Dimmer Light_GF_Living_Table        "Table"         (GF_Living, Lights)     ["Light", "Lighting"]
 Switch Light_GF_Corridor_Ceiling    "Ceiling"       (GF_Corridor, Lights)   ["Light"]
